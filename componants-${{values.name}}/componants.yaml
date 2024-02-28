@@ -4,7 +4,7 @@ metadata:
   name: ${{values.name | dump}}
   description: Some description of the ${{values.name | dump}} component
   annotations:
-    backstage.io/techdocs-ref: url:https://github.com/NoufAlaskar/${{values.name | dump}}
+    backstage.io/techdocs-ref: url:https://github.com/NoufAlaskar/${{values.name}}
 spec:
   type: ${{values.typeName | dump}}
   lifecycle: experimental
