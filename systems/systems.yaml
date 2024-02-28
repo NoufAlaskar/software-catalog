@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: ${{values.name | dump}}
+spec:
+  # type: ${{values.typeName | dump}}
+  domain: ${{values.name | dump}}
+  owner: user:guest

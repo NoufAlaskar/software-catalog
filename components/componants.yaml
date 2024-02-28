@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ${{values.name | dump}}
+  description: Some description of the ${{values.name | dump}} component
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: ${{values.typeName | dump}}
+  lifecycle: experimental
+  owner: user:guest
+  system: ${{values.name | dump}}

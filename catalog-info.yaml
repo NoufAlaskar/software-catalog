@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-templates
+  description: A collection of all Backstage example templates
+spec:
+  targets:
+   - ./domains/domains.yaml
+   - ./systems/systems.yaml
+   - ./componants/componants.yaml
+   - ./resources/resources.yaml
+
