@@ -5,8 +5,8 @@ metadata:
   description: A collection of all Backstage example templates
 spec:
   targets:
-   - ./domains/domains.yaml
-   - ./systems/systems.yaml
+   - ./domains-${{values.name}}/domains.yaml
+   - ./systems-${{values.name}}/systems.yaml
    - ./componants-${{values.name}}/componants.yaml
-   - ./resources/resources.yaml
+   - ./resources-${{values.name}}/resources.yaml
 
